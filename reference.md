@@ -1,6 +1,6 @@
 ---
 layout: copy
-title: 哎呦喂！！！
+title: 以下链接供大家学习参考
 date: 2017-04-01 13:15:15 +0800
 permalink: /reference/
 ---
@@ -28,13 +28,13 @@ abbr {text-decoration: none;}
 <li><a href="http://www.typescriptlang.org/index.html" target="_blank">TypeScript</a></li>
 <li><a href="https://babeljs.io/" target="_blank">Babel</a></li>
 </ol>
-<hr><h4 class="btn btn-primary btn-lg">Node相关</h4><hr>
+<hr><h4 class="btn btn-primary btn-lg">Jekyll相关</h4><hr>
 <ol class="rounded-list">
-<li><a href="https://nodeschool.io/" target="_blank">NODESCHOOL</a></li>
-<li><a href="http://expressjs.com/" target="_blank">Express</a></li>
-<li><a href="https://github.com/senchalabs/connect" target="_blank">Connect</a></li>
-<li><a href="https://pugjs.org/api/getting-started.html" target="_blank">Pug</a></li>
-<li><a href="https://git-scm.com/docs" target="_blank">Git Reference</a></li>
+<li><a href="http://baixin.io/2016/10/jekyll_tutorials1/" target="_blank">搭建个人博客</a></li>
+<li><a href="http://www.jekyll-plugins.com/" target="_blank">Jekyll plugins库</a></li>
+<li><a href="http://blog.csdn.net/maoxunxing/article/details/40479753" target="_blank">jekyll翻译文档</a></li>
+<li><a href="https://jekyllrb.com/docs/plugins/" target="_blank">了解jekyll plugins</a></li>
+<li><a href="http://jekyllthemes.org/" target="_blank">Jekyll Theme</a></li>
 </ol>
 <hr><h4 class="btn btn-info btn-lg">CDN</h4><hr>
 <ol class="rectangle-list">
