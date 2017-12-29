@@ -1,27 +1,9 @@
-# Site settings
-name: 谢冠岚的学习网站
-email: 690244957@163.com
-author: 690244957
-url: https://161013088.github.io/
-resume_site: http://xiaokedada.com/me/
-github: https://github.com/690244957
-baseurl: ""  #根目录
-description: 唯有保持认真执着的赤子之心，方能走得更远。
-motto: 学海无涯
-#motto: 学海无涯
-banner: 网络世界。
-#permalink: /:categories/:year/:month/:day/:title/
+name: Solar Theme
+url: http://example.org
+description: A stylish blog using the Solarized color palette
+
 permalink: /:year/:month/:day/:title/
-excerpt_separator:  '<!-- more -->' #文章摘要
-paginate: 8
-paginate_path: "page:num"
+paginate: 10
+
 gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-github_username: maoxiaoke
-highlighter: rouge
-markdown: kramdown
-FB:
-  comments :
-    provider : disqus
-    disqus :
-        short_name : xiaokedada
