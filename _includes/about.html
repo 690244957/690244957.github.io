@@ -3,13 +3,13 @@
 <table class="table table-striped table-hover">
     {% if site.categories.first[0] == null %}
     {% for category in site.categories %}
-    <tr><td><a href="/posts/#{{ category }}">
+    <tr><td><a href="/posts/{{ category }}">
         {{ category | join: "/" }} <span class="btn btn-primary btn-xs pull-right">({{ site.categories[category].size }}) </span>
     </a></td></tr>
     {% endfor %}
     {% else %}
     {% for category in site.categories %}
-    <tr><td><a href="/posts/#{{ category[0] }}">
+    <tr><td><a href="/posts/{{ category[0] }}">
         {{ category[0] | join: "/" }} <span class="btn btn-primary btn-xs pull-right">({{ category[1].size }})</span>
     </a></td></tr>
     {% endfor %}
