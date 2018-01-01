@@ -9,7 +9,7 @@ header: Posts By Category
     <div class="col-md-3">
       <div class="sidebar hidden-print" role="complementary">
         <div id="navigation">
-        	<h1>文章类型</h1>
+        	<h1>文章标题</h1>
       		<ul class="nav sidenav">
 				{% for post in site.posts %}
 					{% if post.categories contains 'rwd' %}
@@ -33,7 +33,7 @@ header: Posts By Category
 				{% for post in site.posts %}
 					{% if post.categories contains 'rwd' %}
 					 <div>
-						{% assign pages_list = category[1] %}  
+						{% assign pages_list = post.title %}  
 						{% include LessOrMore/pages_list %}
 					</div><hr>
 					{% endif %}
