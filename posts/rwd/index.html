@@ -29,10 +29,9 @@ header: Posts By Category
         <div class="wrapper">
           <div class="home">
 				{% for post in site.posts %}
-				<p>1</P>
 					{% if post.categories contains 'rwd' %}
 					<p>2</P>
-					<p>{{site.posts}}</P>
+					<p>{{post.content}}</P>
 					{% endif %}
 				{% endfor %}
           </div>
