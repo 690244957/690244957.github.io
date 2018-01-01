@@ -33,7 +33,7 @@ header: Posts By Category
 				{% for post in site.posts %}
 					{% if post.categories contains 'rwd' %}
 					 <div>
-						{% assign pages_list = site.posts %}  
+						{% assign pages_list = posts %}  
 						{% include LessOrMore/pages_list %}
 					</div><hr>
 					{% endif %}
