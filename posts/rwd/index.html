@@ -15,7 +15,7 @@ header: Posts By Category
 					{% if post.categories=="rwd" %}
 						{% for title in post.title %} 
 							<li><a href="{{category}}">
-								{{ titles | join: "/" }} <span style="color: #999999;" >({{ posts.title[titles].size }})</span>
+								{{ title | join: "/" }} <span style="color: #999999;" >({{ posts.title[titles].size }})</span>
 							</a></li>
 						{% endfor %}
 					{% endif %}
