@@ -28,7 +28,7 @@ header: Posts By Category
       <div class="panel docs-content">
         <div class="wrapper">
           <div class="home">
-			<h2 class="title-border" id="{{category[0]}}">{{ rwd | join: "/" }}</h2><hr>
+			<h2 class="title-border" id="{{category[0]}}">{{ rwd  }}</h2><hr>
 
 				{% for post in site.posts %}
 					{% if post.categories contains 'rwd' %}
