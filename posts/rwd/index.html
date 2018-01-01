@@ -20,7 +20,7 @@ header: Posts By Category
 			  	{% else %}
 			    	{% for titles in site.title %} 
 				    	<li><a href="{{category[0]}}">
-				    		{{ titles | join: "/" }} <span style="color: #999999;" >({{ category[1].size }})</span>
+				    		{{ titles | join: "/" }} <span style="color: #999999;" >({{ site.title[titles].size}})</span>
 				    	</a></li>
 			    	{% endfor %}
 			  	{% endif %}
