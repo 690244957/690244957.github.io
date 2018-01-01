@@ -11,19 +11,20 @@ header: Posts By Category
         <div id="navigation">
         	<h1>文章类型</h1>
       		<ul class="nav sidenav">
-				{% if site.categories=="rwd" %}
-					{% for titles in site.title %} 
-				    	<li><a href="{{category}}">
-				    		{{ titles | join: "/" }} <span style="color: #999999;" >({{ site.title[titles].size }})</span>
-				    	</a></li>
-			    	{% endfor %}
-			  	{% else %}
-			    	{% for titles in site.title %} 
-				    	<li><a href="{{category[0]}}">
-				    		{{ titles | join: "/" }} <span style="color: #999999;" >({{ site.title[titles].size}})</span>
-				    	</a></li>
-			    	{% endfor %}
-			  	{% endif %}
+				{% for post in site.posts %}
+					{% if site.categories=="rwd" %}
+						{% for titles in post.title %} 
+							<li><a href="{{category}}">
+								{{ titles | join: "/" }} <span style="color: #999999;" >({{ posts.title[titles].size }})</span>
+							</a></li>
+						{% endfor %}
+					{% else %}
+						{% for titles in site.title %} 
+							<li><a href="{{category[0]}}">
+								{{ titles | join: "/" }} <span style="color: #999999;" >({{ posts.title[titles].size}})</span>
+							</a></li>
+						{% endfor %}
+					{% endif %}
           	</ul>
         </div>
       </div>
