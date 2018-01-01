@@ -32,11 +32,9 @@ header: Posts By Category
 
 				{% for post in site.posts %}
 					{% if post.categories contains 'rwd' %}
-						 {{ post }}
-					 <div>
-						{% assign pages_list = post %}  
-						{% include LessOrMore/pages_list %}
-					</div><hr>
+						<ul>
+							<li><a href="{{ post.url | prepend: site.baseurl }}">{{post}}</a>
+						<hr>
 					{% endif %}
 				{% endfor %}
           </div>
