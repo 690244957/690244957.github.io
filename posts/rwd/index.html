@@ -28,12 +28,10 @@ header: Posts By Category
       <div class="panel docs-content">
         <div class="wrapper">
           <div class="home">
-			{% for category in site.categories %} 
-			  <h2 class="title-border" id="{{category[0]}}">{{ category[0] | join: "/" }}</h2><hr>
-			  <div>
-			    {% assign pages_list = category[1] %}  
-			    {% include LessOrMore/pages_list %}
-			  </div><hr>
+			{% for category in posts.categories %} 
+			{% if post.categories contains 'rwd' %}
+				<p>haha{{post}}</p>
+			  {% endif %}
 			{% endfor %}
           </div>
         </div>
