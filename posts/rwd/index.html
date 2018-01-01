@@ -29,16 +29,18 @@ header: Posts By Category
         <div class="wrapper">
           <div class="home">
 			<h2 class="title-border" id="{{category[0]}}">rwd</h2><hr>
-
+			<ul>
 				{% for post in site.posts %}
 					{% if post.categories contains 'rwd' %}
 						 
-					 <div>
-						{% assign pages_list = site.posts %}  
-						{% include LessOrMore/pages_list %}
-					</div><hr>
+					{% for title in post.title %} 
+							<li><a href="{{category}}">
+						{{post.title}}
+							</a></li>
+						{% endfor %}
 					{% endif %}
 				{% endfor %}
+			</ul>
           </div>
         </div>
       </div>
