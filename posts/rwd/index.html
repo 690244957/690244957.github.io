@@ -13,14 +13,14 @@ header: Posts By Category
       		<ul class="nav sidenav">
 				{% if site.categories=="rwd" %}
 					{% for titles in site.title %} 
-				    	<li><a href="{{#category}}">
+				    	<li><a href="{{category}}">
 				    		{{ titles | join: "/" }} <span style="color: #999999;" >({{ site.title[titles].size }})</span>
 				    	</a></li>
 			    	{% endfor %}
 			  	{% else %}
-			    	{% for category in site.categories %} 
-				    	<li><a href="{{#category[0]}}">
-				    		{{ category[0] | join: "/" }} <span style="color: #999999;" >({{ category[1].size }})</span>
+			    	{% for titles in site.title %} 
+				    	<li><a href="{{category[0]}}">
+				    		{{ titles | join: "/" }} <span style="color: #999999;" >({{ category[1].size }})</span>
 				    	</a></li>
 			    	{% endfor %}
 			  	{% endif %}
