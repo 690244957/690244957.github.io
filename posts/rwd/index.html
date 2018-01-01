@@ -12,9 +12,15 @@ header: Posts By Category
         	<h1>文章类型</h1>
       		<ul class="nav sidenav">
 				{% for post in site.posts %}
-					{% if post.categories=="rwd" %}
+											<li><a href="{{category}}">
+						{{site.posts}}{{post.title}}	
+								{{ title | join: "/" }}
+							</a></li>
+							
+					{% if post.categories contains 'rwd' %}
 						{% for title in post.title %} 
 							<li><a href="{{category}}">
+						{{site.posts}}{{post.title}}	
 								{{ title | join: "/" }} <span style="color: #999999;" >({{ posts.title[titles].size }})</span>
 							</a></li>
 						{% endfor %}
