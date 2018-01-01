@@ -28,11 +28,13 @@ header: Posts By Category
       <div class="panel docs-content">
         <div class="wrapper">
           <div class="home">
-			{% for category in posts.categories %} 
-			{% if post.categories contains 'rwd' %}
-				<p>haha{{post}}</p>
-			  {% endif %}
-			{% endfor %}
+				{% for post in site.posts %}
+				<p>1</P>
+					{% if post.categories contains 'rwd' %}
+					<p>2</P>
+					<p>{{site.posts}}</P>
+					{% endif %}
+				{% endfor %}
           </div>
         </div>
       </div>
