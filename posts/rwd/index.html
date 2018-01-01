@@ -15,7 +15,7 @@ header: Posts By Category
 					{% if post.categories contains 'rwd' %}
 						{% for title in post.title %} 
 							<li><a href="{{category}}">
-						{{post.title}}<span style="color: #999999;" ></span>
+						{{post.title}}
 							</a></li>
 						{% endfor %}
 					{% endif %}
@@ -28,7 +28,7 @@ header: Posts By Category
       <div class="panel docs-content">
         <div class="wrapper">
           <div class="home">
-			<h2 class="title-border" id="{{category[0]}}">{{ rwd  }}</h2><hr>
+			<h2 class="title-border" id="{{category[0]}}">{{ rwd | join: "/" }}</h2><hr>
 
 				{% for post in site.posts %}
 					{% if post.categories contains 'rwd' %}
