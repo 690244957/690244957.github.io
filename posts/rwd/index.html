@@ -34,7 +34,7 @@ header: Posts By Category
 					{% if post.categories contains 'rwd' %}
 						<ul>
 							<li><a href="{{ post.url | prepend: site.baseurl }}">{{post}}</a></li>
-						<ul>
+						</ul>
 						<hr>
 					{% endif %}
 				{% endfor %}
