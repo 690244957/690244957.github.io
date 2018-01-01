@@ -11,7 +11,7 @@ header: Posts By Category
         <div id="navigation">
         	<h1>文章类型</h1>
       		<ul class="nav sidenav">
-				{% if site.categories="rwd" %}
+				{% if site.categories=="rwd" %}
 					{% for titles in site.title %} 
 				    	<li><a href="{{#category}}">
 				    		{{ titles | join: "/" }} <span style="color: #999999;" >({{ site.title[titles].size }})</span>
