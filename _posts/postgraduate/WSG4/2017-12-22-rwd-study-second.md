@@ -46,13 +46,13 @@ medium-dpi – 使用mdpi作为目标 dpi。 高像素密度设备相应放大�
 low-dpi -使用mdpi作为目标 dpi。中等像素密度和高像素密度设备相应放大。
 
 指定一个具体的dpi 值作为target dpi. 这个值的范围必须在70–400之间。
-
+```
 - <meta name="viewport" content="target-densitydpi=device-dpi" />
 - <meta name="viewport" content="target-densitydpi=high-dpi" />
 - <meta name="viewport" content="target-densitydpi=medium-dpi" />
 -  <meta name="viewport" content="target-densitydpi=low-dpi" />
 - <meta name="viewport" content="target-densitydpi=200" />
-
+```
 ## initial-scale
 初始缩放。即页面初始缩放程度。这是一个浮点值，是页面大小的一个乘数。例如，如果你设置初始缩放为“1.0”，那么，web页面在展现的时候就会以target density分辨率的1:1来展现。如果你设置为“2.0”，那么这个页面就会放大为2倍。
 ## maximum-scale
