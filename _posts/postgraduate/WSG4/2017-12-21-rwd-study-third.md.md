@@ -3,7 +3,7 @@ layout: post
 title: "Liquid基础语法"
 date: 2017-12-21 11:00:00 +0800 
 categories: rwd
-tag: rwd
+tag: Liquid
 ---
 * content
 {:toc}
