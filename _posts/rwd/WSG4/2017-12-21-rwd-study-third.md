@@ -4,6 +4,7 @@ title: "Liquid基础语法"
 date: 2017-12-21 11:00:00 +0800 
 categories: rwd
 tag: Liquid
+permalink: /posts/rwd/Liquid基础语法
 ---
 * content
 {:toc}
