@@ -4,6 +4,7 @@ title: "Tableau图表类型和基础讲解"
 date: 2017-12-25 17:00:00 +0800 
 categories: infovis
 tag: Tableau
+permalink: /posts/rwd/Tableau图表类型和基础讲解
 ---
 * content
 {:toc}
