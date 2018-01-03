@@ -4,6 +4,7 @@ title:  "欲用GitHub空間，可先自裝GitHub Desktop"
 date:   2017-12-01 22:07:50 +0800
 categories: rwd
 tag: Jekyll
+permalink: /posts/rwd/欲用GitHub空間，可先自裝GitHub Desktop
 ---
 * content
 {:toc}

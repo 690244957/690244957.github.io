@@ -4,6 +4,7 @@ title: "学习笔记__week15"
 date: 2017-12-19 11:00:00 +0800 
 categories: rwd
 tag: WSG4
+permalink: /posts/rwd/学习笔记__week15
 ---
 * content
 {:toc}

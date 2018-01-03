@@ -4,6 +4,7 @@ title: "CSS解密"
 date: 2017-05-13 09:00:00 +0800 
 categories: rwd
 tag: CSS
+permalink: /posts/rwd/css解密
 ---
 * content
 {:toc}

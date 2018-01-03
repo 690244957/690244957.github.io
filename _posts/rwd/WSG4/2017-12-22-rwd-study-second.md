@@ -4,6 +4,7 @@ title: "meta标签的语法"
 date: 2017-12-24 11:00:00 +0800 
 categories: rwd
 tag: rwd
+permalink: /posts/rwd/meta标签的语法
 ---
 * content
 {:toc}

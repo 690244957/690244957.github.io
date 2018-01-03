@@ -4,6 +4,7 @@ title: "特指度--确定哪个样式胜出"
 date: 2017-05-16 09:00:00 +0800 
 categories: rwd
 tag: CSS
+permalink: /posts/rwd/特指度--确定哪个样式胜出
 ---
 * content
 {:toc}

@@ -4,6 +4,7 @@ title: "如何用jekyll搭建个人博客"
 data: 2017-12-24 16:45:00 +0800
 categories: rwd
 tag: Jekyll
+permalink: /posts/rwd/如何用jekyll搭建个人博客
 ---
 * content
 {:toc}

@@ -6,6 +6,7 @@ categories: rwd
 tags: 
  - Responsive
  - Performance
+ permalink: /posts/rwd/High Performance Responsive Design
 ---
 * content
 {:toc}

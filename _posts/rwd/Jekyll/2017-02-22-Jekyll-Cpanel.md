@@ -4,6 +4,7 @@ title: "基于Jekyll静态框架的Github站点设计"
 data: 2017-02-22 19:27:00 +0800
 categories: rwd
 tag: Jekyll
+permalink: /posts/rwd/基于Jekyll静态框架的Github站点设计
 ---
 * content
 {:toc}

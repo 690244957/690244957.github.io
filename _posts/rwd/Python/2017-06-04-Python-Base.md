@@ -4,6 +4,7 @@ title: "Python语言笔记"
 date: 2017-06-04 09:00:00 +0800 
 categories: Python 
 tag: Python
+permalink: /posts/rwd/Python语言笔记
 ---
 * content
 {:toc}
