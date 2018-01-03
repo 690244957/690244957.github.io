@@ -2,7 +2,7 @@
 layout: post
 title: "FreeCodeCamp的算法题"
 date: 2017-12-08 09:00:00 +0800 
-categories: 数据可视化
+categories: infovis
 tag: Algorithms
 ---
 * content

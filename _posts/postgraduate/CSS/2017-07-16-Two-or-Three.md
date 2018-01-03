@@ -2,7 +2,7 @@
 layout: post
 title: "两栏和三栏布局详解"
 date: 2017-07-16 09:00:00 +0800 
-categories: 研究生涯
+categories: rwd
 tag: CSS
 ---
 * content
