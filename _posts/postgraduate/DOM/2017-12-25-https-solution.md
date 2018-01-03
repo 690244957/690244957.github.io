@@ -2,7 +2,7 @@
 layout: post
 title: "解决This content should also be served over HTTPS"
 date: 2017-12-25 23:00:00 +0800 
-categories: 研究生涯
+categories: rwd
 tag: https
 ---
 * content
