@@ -2,7 +2,7 @@
 layout: post
 title: "如何用jekyll搭建个人博客"
 data: 2017-12-24 16:45:00 +0800
-categories: 研究生涯
+categories: rwd
 tag: Jekyll
 ---
 * content

@@ -2,7 +2,7 @@
 layout: post
 title: "特指度--确定哪个样式胜出"
 date: 2017-05-16 09:00:00 +0800 
-categories: 研究生涯
+categories: rwd
 tag: CSS
 ---
 * content
