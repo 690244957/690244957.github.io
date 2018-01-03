@@ -2,7 +2,7 @@
 layout: post
 title: "Python语言笔记"
 date: 2017-06-04 09:00:00 +0800 
-categories: 研究生涯
+categories: Python 
 tag: Python
 ---
 * content
