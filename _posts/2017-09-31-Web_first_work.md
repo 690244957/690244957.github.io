@@ -7,38 +7,25 @@ image:
     feature: portfolio.jpg
 ---
 	
-		<div class="Header">
-			<a href="https://www.yidaiyilu.gov.cn/" class="LogoWrapper"><img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=401d6694f3edab64607f4592965fc4a6/267f9e2f07082838fb22c44bb099a9014c08f146.jpg" alt="中国的一带一路" /></a>
+  <body>
+		<div class="Header"="text-align:center;">
+			"https://www.yidaiyilu.gov.cn/" class="LogoWrapper"><img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=401d6694f3edab64607f4592965fc4a6/267f9e2f07082838fb22c44bb099a9014c08f146.jpg" alt="中国的一带一路" />
 			<p class="Strap">中国的一带一路</p>
 		</div>
 		<div class="IntroWrapper">
-			<p class="IntroText">[央视新闻]“一带一路”特别报道
-			<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=10819637&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
-			</p>
+			<p class="IntroText">[央视新闻]“一带一路”特别报道</p>
 			<div class="MoneyShot">
 				<img class="MoneyShotImg" width="100%" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=5f4e453edd39b60059c307e588395e4f/f9dcd100baa1cd11380b34fdb112c8fcc2ce2da9.jpg" alt="国事访问" />
-				
-					<p class="ImageCaption">习近平国事访问</p>
 			</div>
 		</div>
-		<p>关于一带一路的重要信息</p>
-		<div class="Ingredients">
-			<h3 class="SubHeader">热点专题</h3>
+		<p>习近平国事访问</p>
+		<div class="角色设定">
+			
 			<ul>
-				<li>上合组织</li>
-				<li>命运共同体</li>
-				<li>区域经济合作</li>
-				<li>一带一路</li>
-				<li>信息丝绸之路</li>
-				<li>国际产能合作</li>
-				<li>投资</li>
-				<li>国事访问</li>
-				<li>贸易边界</li>
-				<li>铁路建设</li>
 			</ul>
 		</div>
 		<div class="HowToMake">
-			<h3 class="SubHeader">要闻</h3>
+			<h3 class="SubHeader">角色设定</h3>
 			<ol class="MethodWrapper">
 				<li>“一带一路”亚洲孔子学院联席会议在曼谷举行</li>
 				<li>“一带一路”引领中埃互利合作跃上新台阶</li>
@@ -47,9 +34,12 @@ image:
 				<li>中斯丝绸之路艺术联展开幕 展出作品70余件</li>
 				<li>正在制定、完善“一带一路”线路图</li>
 				<li>“坦赞铁路精神”传唱50年 “一带一路”倡议引领中非合作新高潮</li>
+            <center>
+			<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=10819637&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+            </center>
+" id="360videoname">
 			</ol>
 		</div>
-	
 	<style type="text/css">
 	* {
 	box-sizing: border-box;
@@ -66,9 +56,7 @@ body {
 
 img {
 	max-width: 100%;
-	
 }
-
 
 .Header {
 	text-align: center;
@@ -161,6 +149,5 @@ img {
 		margin: 0;
 	}
 }
-	
-	</style>
-	
+</style>
+</body>
