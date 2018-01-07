@@ -3,7 +3,7 @@
  - title: 信息可视化作品集
    url: /infovis/
    excerpt: 信息可视化的作品 
-   image: navigation 1.gif
+   image: Visual works.gif
  
  
  
@@ -11,7 +11,7 @@
  - title: Web作品集
    url: /portfolio/
    excerpt: 网页设计的作品
-   image: navigation 2.gif
+   image: Web works.gif
 
 
 
@@ -19,7 +19,7 @@
  - title: 学习笔记
    url: /posts/
    excerpt: 网页设计和信息可视化笔记心得
-   image: navigation 3.gif 
+   image: learn_note.gif 
    
  
  
@@ -27,4 +27,4 @@
  - title: 关于我
    url: /mine/
    excerpt: 个人资料
-   image: navigation 4.gif 
+   image: aboutme.gif 
