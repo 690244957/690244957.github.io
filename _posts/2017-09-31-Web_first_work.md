@@ -3,8 +3,8 @@ layout: article
 title: "WEB第一次作品"
 categories:  portfolio
 image:
-    teaser: article8
-    feature: article8
+    teaser: portfolio
+    feature: portfolio
 ---
 	<body>
 		<div class="Header">
