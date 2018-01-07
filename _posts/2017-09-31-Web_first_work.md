@@ -8,15 +8,15 @@ image:
 ---
 	
   <body>
-		<div class="Header"="text-align:center;">
-			"https://www.yidaiyilu.gov.cn/" class="LogoWrapper"><img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=401d6694f3edab64607f4592965fc4a6/267f9e2f07082838fb22c44bb099a9014c08f146.jpg" alt="中国的一带一路" />
+		
+			<img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=401d6694f3edab64607f4592965fc4a6/267f9e2f07082838fb22c44bb099a9014c08f146.jpg" alt="中国的一带一路" />
 			<p class="Strap">中国的一带一路</p>
 		</div>
 		<div class="IntroWrapper">
 			<p class="IntroText">[央视新闻]“一带一路”特别报道</p>
 			<div class="MoneyShot">
 				<img class="MoneyShotImg" width="100%" src="https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike72%2C5%2C5%2C72%2C24/sign=5f4e453edd39b60059c307e588395e4f/f9dcd100baa1cd11380b34fdb112c8fcc2ce2da9.jpg" alt="国事访问" />
-			</div>
+			
 		</div>
 		<p>习近平国事访问</p>
 		<div class="角色设定">
@@ -37,7 +37,7 @@ image:
             <center>
 			<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=10819637&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
             </center>
-" id="360videoname">
+
 			</ol>
 		</div>
 	<style type="text/css">
