@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "小小的成果"
+title: "学习成果"
 ---
 
 <div class="tiles">
