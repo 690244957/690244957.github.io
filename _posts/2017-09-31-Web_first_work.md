@@ -6,7 +6,7 @@ image:
     teaser: portfolio
     feature: portfolio
 ---
-	<body>
+	
 		<div class="Header">
 			<a href="https://www.yidaiyilu.gov.cn/" class="LogoWrapper"><img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=401d6694f3edab64607f4592965fc4a6/267f9e2f07082838fb22c44bb099a9014c08f146.jpg" alt="中国的一带一路" /></a>
 			<p class="Strap">中国的一带一路</p>
@@ -163,4 +163,4 @@ img {
 }
 	
 	</style>
-	</body>
+	
