@@ -5,8 +5,8 @@ title:  "Tableau各类图表"
 date:   2018-01-01
 categories: posts infovis
 image:
-  teaser: data_visualization_mid-term.jpg
-  feature: data_visualization_mid-term.jpg
+  teaser: tableau_note_chart.jpg
+  feature: tableau_note_chart.jpg
 ---
 
 ---
